@@ -3,7 +3,7 @@
 using namespace std;
 class queue{
 private:
-	stack<int> s1,s2;
+	stack<int> s1, s2;
 public:
 	void enqueue(int value){
 		s1.push(value);
@@ -28,3 +28,4 @@ int main(){
 	q.enqueue(30);
 	q.dequeue();
 }
+
